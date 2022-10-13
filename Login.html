@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lanchonete do Zézin</title>
+    </head>
+    <body>
+        <h1>Pedido</h1>
+        <h2>Seus Dados:</h2>
+        <form name="signup" autocomplete="on" onsubmit="alert('Formulário enviado')" method="post" action="#">
+            <label>Nome:</label> <input type="text" name="Nome"><br>
+            Rua: <input type="text" name="Endereço"><br>
+            Casa Numero: <input type="number" name="numero"><br>
+            Complemento: <input type="text" name="Complemento"><br>
+            Pedido: <input type="textarea" name="pedido"><br>
+        </form>
+        <h2>Forma de pagamento</h2>
+        <form action="#" name="credit" method="post">
+            <input type="radio" id="Crédito"name="payment">
+            <label>Crédito</label><br>
+            <input type="radio" id="Débito"name="payment">
+            <label>Débito</label><br>
+            <input type="radio" id="Dinheiro" name="payment">
+            <label>Dinheiro</label> <br>
+            <button type="submit">Faça seu pedido!</button>
+    </body>
+</html>
